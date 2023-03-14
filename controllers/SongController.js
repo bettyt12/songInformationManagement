@@ -1,6 +1,5 @@
-// controllers/songs.js
 
-const Song = require('../models/song');
+const Song = require('../models/Song');
 
 exports.getAllSongs = async (req, res) => {
   try {
