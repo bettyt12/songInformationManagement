@@ -16,7 +16,7 @@ const songSchema = new mongoose.Schema({
   genre: {
     type: String,
     required: true,
-  },
+  }, 
 });
 
 module.exports = mongoose.model('Song', songSchema);
